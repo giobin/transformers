@@ -10,16 +10,17 @@ python finetune_rag.py \
     --model_name_or_path facebook/rag-sequence-base \
     --model_type rag_sequence \
     --fp16 \
+    --gpus 1 \
     --profile \
     --do_train \
     --do_predict \
     --n_val -1 \
-    --train_batch_size 8 \
+    --train_batch_size 4 \
     --eval_batch_size 1 \
-    --max_source_length 128 \
-    --max_target_length 25 \
-    --val_max_target_length 25 \
-    --test_max_target_length 25 \
+    --max_source_length 100 \
+    --max_target_length 50 \
+    --val_max_target_length 50 \
+    --test_max_target_length 50 \
     --label_smoothing 0.1 \
     --dropout 0.1 \
     --attention_dropout 0.1 \

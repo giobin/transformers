@@ -161,3 +161,9 @@ tags
 
 # .lock
 *.lock
+examples/research_projects/rag_qc/prova_data/test.source
+examples/research_projects/rag_qc/prova_data/test.target
+examples/research_projects/rag_qc/prova_data/train.source
+examples/research_projects/rag_qc/prova_data/train.target
+examples/research_projects/rag_qc/prova_data/val.source
+examples/research_projects/rag_qc/prova_data/val.target
